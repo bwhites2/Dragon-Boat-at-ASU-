@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Boat Team at ASU</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: black;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: maroon;
+            color: gold;
+            padding: 20px;
+            font-size: 26px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .team-photo {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.3);
+        }
+        .instagram-feed {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .instagram-post {
+            width: 250px;
+            height: 250px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        .instagram-post:hover {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: maroon;
+            color: gold;
+            padding: 10px;
+            font-size: 14px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .asu-logo {
+            width: 100px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Dragon Boat Team at ASU</h1>
+    </header>
+    <div class="container">
+        <img src="team-photo.jpg" alt="Dragon Boat Team" class="team-photo">
+        <p>We are a passionate team of dragon boat paddlers dedicated to teamwork, strength, and fun!</p>
+        <p>Practices: Monday 6pm-8pm and Saturday 8am-10:30am at Tempe Town Lake.</p>
+        <img src="sparky.png" alt="Sparky" class="asu-logo">
+        <img src="pitchfork.png" alt="ASU Pitchfork" class="asu-logo">
+        <div class="instagram-feed">
+            <div class="instagram-post">
+                <a href="https://www.instagram.com/p/DFYTULYyML_/">
+                    <img src="https://via.placeholder.com/250" alt="Instagram Post 1">
+                </a>
+            </div>
+            <div class="instagram-post">
+                <a href="https://www.instagram.com/p/Cn70RZpS_OU/">
+                    <img src="https://via.placeholder.com/250" alt="Instagram Post 2">
+                </a>
+            </div>
+            <div class="instagram-post">
+                <a href="https://www.instagram.com/reel/C2lItbHvjc_/">
+                    <img src="https://via.placeholder.com/250" alt="Instagram Post 3">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Dragon Boat Team at ASU. All Rights Reserved.
+    </footer>
+</body>
+</html>
